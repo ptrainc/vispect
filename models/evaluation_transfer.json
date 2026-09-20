@@ -1,0 +1,104 @@
+{
+  "report": {
+    "NG": {
+      "precision": 0.8333333333333334,
+      "recall": 1.0,
+      "f1-score": 0.9090909090909091,
+      "support": 5.0
+    },
+    "OK": {
+      "precision": 1.0,
+      "recall": 0.75,
+      "f1-score": 0.8571428571428571,
+      "support": 4.0
+    },
+    "accuracy": 0.8888888888888888,
+    "macro avg": {
+      "precision": 0.9166666666666667,
+      "recall": 0.875,
+      "f1-score": 0.8831168831168831,
+      "support": 9.0
+    },
+    "weighted avg": {
+      "precision": 0.9074074074074076,
+      "recall": 0.8888888888888888,
+      "f1-score": 0.886002886002886,
+      "support": 9.0
+    }
+  },
+  "photos": [
+    {
+      "file": "1000698824.jpg",
+      "actual": "NG",
+      "prediction": "NG",
+      "decision": "NG",
+      "margin": -0.8949961837860579,
+      "similarity": 0.8354519605636597
+    },
+    {
+      "file": "1000698825.jpg",
+      "actual": "NG",
+      "prediction": "NG",
+      "decision": "NG",
+      "margin": -0.8886625110258771,
+      "similarity": 0.8497048616409302
+    },
+    {
+      "file": "1000698829.jpg",
+      "actual": "NG",
+      "prediction": "NG",
+      "decision": "NG",
+      "margin": -0.7176395991756633,
+      "similarity": 0.8497048616409302
+    },
+    {
+      "file": "1000698834.jpg",
+      "actual": "NG",
+      "prediction": "NG",
+      "decision": "NG",
+      "margin": -0.9394881552408566,
+      "similarity": 0.8354519605636597
+    },
+    {
+      "file": "1000698835.jpg",
+      "actual": "NG",
+      "prediction": "NG",
+      "decision": "NG",
+      "margin": -0.5695655601755183,
+      "similarity": 0.7191715240478516
+    },
+    {
+      "file": "1000698840.jpg",
+      "actual": "OK",
+      "prediction": "OK",
+      "decision": "OK",
+      "margin": 0.8128943774925685,
+      "similarity": 0.8784104585647583
+    },
+    {
+      "file": "1000698842.jpg",
+      "actual": "OK",
+      "prediction": "OK",
+      "decision": "OK",
+      "margin": 1.0828064089830671,
+      "similarity": 0.90534508228302
+    },
+    {
+      "file": "1000698845.jpg",
+      "actual": "OK",
+      "prediction": "OK",
+      "decision": "OK",
+      "margin": 0.8088799450571702,
+      "similarity": 0.90534508228302
+    },
+    {
+      "file": "1000698851.jpg",
+      "actual": "OK",
+      "prediction": "NG",
+      "decision": "TIDAK DIKENALI",
+      "margin": -0.13722813991634566,
+      "similarity": 0.6610238552093506
+    }
+  ],
+  "warning": "Only source-photo separation; same physical units/sessions may leak. Final model refit on ALL sources."
+}
